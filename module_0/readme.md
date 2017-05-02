@@ -27,13 +27,20 @@ Installing R:
 
 
 ### Installing RStudio
-
+1. Go to: www.rstudio.com/products/rstudio/download2/
+2. Find RStudio Desktop Open Source License.
+3. Click "Download". 
 ![1](install_screenshots/RStudio_1.PNG)
+4. Save the installer for your platform.
 ![2](install_screenshots/RStudio_2.PNG)
+5. Open the installer from where it was downloaded.
+6. Click “Run”.
 ![3](install_screenshots/RStudio_3.PNG)
+7. Follow prompts.
 ![4](install_screenshots/RStudio_4.PNG)
 ![5](install_screenshots/RStudio_5.PNG)
 ![6](install_screenshots/RStudio_6.PNG)
+8. “Finish” installing RStudio!
 ![7](install_screenshots/RStudio_7.PNG)
 
 Install Python
