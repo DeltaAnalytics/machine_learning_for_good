@@ -1,0 +1,198 @@
+---
+title: "Explore Variables"
+author: "Kevin Pan"
+date: "May 13, 2017"
+output:
+  html_document:
+    theme: united
+    toc: yes
+    toc_float:
+      collapsed: no
+  pdf_document: default
+classoption: landscape
+---
+
+
+```{r setup2, echo=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(
+	message = FALSE,
+	warning = FALSE,
+	echo = FALSE
+)
+pacman::p_load(tidyverse, googlesheets, magrittr, knitr)
+
+## Functions --------
+
+RemoveEmptyColumns <- function(df) {
+  return(df[df %>% map_lgl(~ length(unique(.x))>1)])
+}
+
+## Function to check how much data is missing
+pct_missings <- . %>%
+  map(~ sum(is.na(.x))/nrow(grant_data))
+
+pct_missings_chr <- function(df) {
+  df %>%
+    map_df(~ (sum(is.na(.x)) * 100 /nrow(df)) %>% round(2) %>% as.character)
+}
+
+checkVariables <- function(df,num_unique_vals = 3) {
+  ## How many unique values do variables take on?
+  bind_cols(
+    df %>%
+      map_df(~ .x %>% unique %>% length %>% as.character) %>%
+      bind_rows(df %>% pct_missings_chr) %>%
+      bind_rows(df %>%
+                  map_df(~ paste(
+                    .x %>%
+                      unique %>%
+                      na.omit %>%
+                      head(num_unique_vals),
+                    collapse = ", ")))
+  ) %>%
+    t %>%
+    as.data.frame %>%
+    setNames(c('Unique Values', 'Percent Missing', 'Example Values')) %>%
+    return()
+}
+
+KeepPercentagePopulated <- function(df, pct_pop) {
+  stopifnot(pct_pop<=1 & pct_pop>=0)
+  df[,df %>% pct_missings < (1-pct_pop)]
+}
+
+## Read data ---------------------------------------------------------------
+kiva_full    <- read_csv('../input/loans_full.csv')
+kiva_details <- read_csv('../input/loans_details.csv')
+```
+
+# Check Variables {.tabset .tabset-fade .tabset-pills}
+
+## Examine Kiva Full
+
+```{r kiva_full_check, echo=FALSE, warning=FALSE, message=FALSE}
+
+kiva_full %>% checkVariables %>% kable 
+```
+
+
+***
+\newpage
+
+
+## Examine Kiva Details
+
+```{r kiva_details_check, warning=FALSE, message=FALSE}
+
+kiva_details %>% select(-matches('description')) %>% checkVariables %>% kable
+```
+
+***
+
+# Check Variable Distributions {.tabset .tabset-fade .tabset-pills}
+
+## Sector
+```{r}
+kiva_full %>%
+  ggplot(aes(sector, fill = status)) +
+  geom_histogram(stat='count') +
+  coord_flip() + 
+  theme_minimal()
+```
+\newpage
+
+## Loan Amount
+
+```{r}
+kiva_full %>%
+  filter(loan_amount < 2000) %>% 
+  ggplot(aes(loan_amount, fill = status)) +
+  geom_histogram(stat='count', binwidth = 10) + 
+  theme_minimal()
+```
+\newpage
+
+## Loan Amount by Lenders
+
+```{r}
+kiva_full %>%
+  ggplot(aes(loan_amount, lender_count, col = partner_id)) +
+  facet_wrap(~status, scales = 'free_x') +
+  geom_point()  + 
+  theme_minimal()
+```
+\newpage
+
+## Loan Amount by Borrowers
+
+```{r}
+kiva_full %>%
+  ggplot(aes(loan_amount, borrower_count, col = partner_id)) +
+  facet_wrap(~status, scales = 'free_x') +
+  geom_point()  + 
+  theme_minimal()
+```
+
+***
+
+\newpage 
+
+# Maps {.tabset .tabset-fade .tabset-pills}
+
+## Political
+```{r maps}
+kiva_full %<>% separate(location.geo.pairs, c('lat','lon'), sep = ' ', remove = FALSE, fill = 'left', extra = 'merge') %>% 
+  mutate_at(vars(lat,lon), as.numeric)
+
+kiva_summary <- kiva_full %>% 
+  group_by(lat, lon) %>% 
+  summarise(location = paste(unique(location.town), collapse = ','),
+            num_loans = n(),
+            loan_amt = mean(loan_amount),
+            borrower_cnt = mean(borrower_count), 
+            lender_cnt = mean(lender_count),
+            pct_funded = sum(status == 'funded')/n(),
+            pct_expired = sum(status == 'expired')/n(),
+            pct_fundraising = sum(status == 'fundraising')/n(),
+            pct_agriculture = sum(sector == 'Agriculture')/n()) %>% 
+  mutate_if(is.numeric, funs(round(.,2)))
+  
+pacman::p_load(leaflet)
+
+kiva_summary %>% 
+  leaflet() %>% 
+  addProviderTiles(providers$OpenStreetMap, group = "OSM") %>% 
+  addMarkers(popup = ~paste("Avg Loan Amt:", loan_amt,
+                            "| Loan Count:", num_loans,
+                            "| Avg Borrowers:",borrower_cnt,
+                            "| Avg Lenders:",lender_cnt,
+                            "| Pct Funded:", pct_funded,
+                            "| Pct Fundraising:",pct_fundraising,
+                            "| Pct Expired:", pct_expired,
+                            "| Pct Agric:", pct_agriculture,
+                           sep = ' '
+                           ),
+             # clusterOptions = markerClusterOptions(),
+             label = ~location)
+```
+
+## Physical
+```{r}
+
+kiva_summary %>% 
+  leaflet() %>% 
+  addProviderTiles(providers$Esri.WorldImagery, group =  "Esri") %>%
+  addMarkers(popup = ~paste("Avg Loan Amt:", loan_amt,
+                            "| Loan Count:", num_loans,
+                            "| Avg Borrowers:",borrower_cnt,
+                            "| Avg Lenders:",lender_cnt,
+                            "| Pct Funded:", pct_funded,
+                            "| Pct Fundraising:",pct_fundraising,
+                            "| Pct Expired:", pct_expired,
+                            "| Pct Agric:", pct_agriculture,
+                           sep = ' '
+                           ),
+             # clusterOptions = markerClusterOptions(),
+             label = ~location)
+```
+
