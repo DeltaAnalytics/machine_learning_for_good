@@ -1,0 +1,119 @@
+---
+title: "exploratory analysis of kiva loan data"
+output: exploratory_analysis_amanda_su
+---
+
+```{r 0. read in files}
+
+library(sqldf)
+library(ggplot2)
+library(ggmap)
+
+loans_full <- read.csv("loans_full.csv")
+loans_details <- read.csv("loans_details.csv")
+```
+
+```{r 1. clean and prep}
+
+loans_details_2 <- loans_details
+
+#subset to include only single borrowers of a loan
+loans_details_2$borrower_count = lengths(regmatches(loans_details_2$borrowers, gregexpr("first_name", loans_details_2$borrowers)))
+loans_details_2 <- loans_details_2[loans_details_2$borrower_count == 1,]
+
+#flag gender
+loans_details_2$gender[grepl("'gender': 'M'", loans_details_2$borrowers)] <- "male"
+loans_details_2$gender[grepl("'gender': 'F'", loans_details_2$borrowers)] <- "female"
+
+#flag types of tags used by lenders (this seems to be a choice made by the lender whether to use tags or not)
+loans_details_2$uses_tags[loans_details_2$tags != "[]"] <- 1
+loans_details_2$uses_tags[loans_details_2$tags == "[]"] <- 0
+loans_details_2$woman_owned[grepl("'#Woman Owned Biz'", loans_details_2$tags)] <- 1
+loans_details_2$woman_owned[is.na(loans_details_2$woman_owned)] <- 0
+loans_details_2$first_loan[grepl("'#First Loan'", loans_details_2$tags)] <- 1
+loans_details_2$first_loan[is.na(loans_details_2$first_loan)] <- 0
+loans_details_2$parent[grepl("'#Parent'", loans_details_2$tags)] <- 1
+loans_details_2$parent[is.na(loans_details_2$parent)] <- 0
+
+#lat long coord
+loans_details_2$latitude = gsub( " .*$", "", loans_details_2$location.geo.pairs)
+loans_details_2$latitude = as.numeric(loans_details_2$latitude)
+loans_details_2$longitude = gsub(".* ", "", loans_details_2$location.geo.pairs)
+loans_details_2$longitude = as.numeric(loans_details_2$longitude)
+```
+
+```{r 2. prelim}
+
+#by gender
+loans_details_gender <- sqldf('select
+                           gender,
+                           count(borrower_count) as num_loans,
+                           sum(lender_count) as num_lenders,
+                           sum(lender_count)/count(borrower_count) as lenders_per_loan,
+                           sum(uses_tags) as num_use_tags,
+                           sum(woman_owned) as num_woman_owned,
+                           sum(parent) as num_is_parent,
+                           sum(first_loan) as num_first_loan,
+                           avg(loan_amount) as avg_loan_amount,
+                           min(loan_amount) as min_loan_amount,
+                           max(loan_amount) as max_loan_amount
+                           from loans_details_2
+                           group by gender')
+
+prop.table(table(loans_details_2$gender))
+prop.table(table(loans_details_2$sector))
+
+loans_details_female <- loans_details_2[loans_details_2$gender == "female",]
+loans_details_male <- loans_details_2[loans_details_2$gender == "male",]
+prop.table(table(loans_details_female$sector))
+prop.table(table(loans_details_male$sector))
+
+#by sector, gender
+loans_details_agg <- sqldf('select
+                           sector, gender,
+                           count(borrower_count) as num_loans,
+                           sum(lender_count) as num_lenders,
+                           sum(lender_count)/count(borrower_count) as lenders_per_loan,
+                           sum(woman_owned) as num_woman_owned,
+                           sum(parent) as num_is_parent,
+                           sum(first_loan) as num_first_loan,
+                           avg(loan_amount) as avg_loan_amount,
+                           min(loan_amount) as min_loan_amount,
+                           max(loan_amount) as max_loan_amount
+                           from loans_details_2
+                           group by sector, gender')
+
+num_loans <- table(loans_details_2$sector, loans_details_2$gender)
+barplot(num_loans, main = "number of loans by gender and sector", legend = rownames(num_loans), beside = TRUE)
+
+#by status
+loans_funded <- loans_details_2[loans_details_2$status == "funded",]
+loans_expired <- loans_details_2[loans_details_2$status == "expired",]
+prop.table(table(loans_funded$gender))
+prop.table(table(loans_expired$gender))
+prop.table(table(loans_funded$sector, loans_funded$gender))
+prop.table(table(loans_expired$sector, loans_expired$gender))
+
+#by partner
+loans_partner <- loans_details_2[!is.na(loans_details_2$partner_id),]
+part_lend <- table(loans_partner$lender_count, loans_partner$partner_id)
+barplot(part_lend, beside = TRUE)
+part_loan <- table(loans_partner$activity, loans_partner$partner_id)
+barplot(part_loan, beside = TRUE)
+
+#simple ols
+funded_tags <- lm(lender_count ~ uses_tags + gender + sector, data = loans_funded)
+summary(funded_tags)
+expired_tags <- lm(lender_count ~ uses_tags + gender + sector, data = loans_expired)
+summary(expired_tags)
+```
+
+```{r 3. spatial}
+
+#incl only borrowers with town/city-level coordinates -- find that most borrowers around larger cities
+loans_towns <- loans_details_2[loans_details_2$location.geo.level == "town" & loans_details_2$location.geo.type == "point",]
+kenya <- get_map(location = c(mean(loans_towns$longitude), lat = mean(loans_towns$latitude)), zoom = 6, maptype = "roadmap", color = "bw", scale = 2)
+
+ggmap(kenya) + geom_point(data = loans_towns, aes(x = longitude, y = latitude, fill = "red", alpha = 0.7), size = 3, shape = 21) + 
+  guides(fill = FALSE, alpha = FALSE, size = FALSE)
+```
