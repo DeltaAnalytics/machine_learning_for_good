@@ -8,30 +8,38 @@ Delta Analytics is a 501(c)3 Bay Area non-profit dedicated to bringing rigorous 
 
 # Curriculum
 
-Topics covered in this course will include supervised learning, unsupervised learning, ensemble approaches, recommendation algorithms, text (NLP) analysis.
+Topics covered in this course include supervised learning, unsupervised learning, ensemble approaches, recommendation algorithms, and text analysis (also called Natural Language Processing, or NLP).
 
-Algorithms covered in this course will include linear regression, decision tree, random forest, k-means clustering.
+Algorithms covered in this course include linear regression, decision tree, random forest, and k-means clustering.
 
 Module_0
 Setting up your environment
-Accessing data
-Best Practices for your work
+Accessing the data
 
 Module_1
 Introduction / Overview of Syllabus 
+Who is Delta Analytics? 
 What is data science? What is machine learning? 
-Defining your research question. 
-Exploratory analysis and feature engineering.
-Cleaning, processing and validating your training set.
+Data validation and cleaning 
 
-Module_2
-Algorithm Overview: Supervised Learning
-Linear Regression
-Roadmap to algorithm choice
-How do you know you have chosen the best algorithm? 
+Module_2 
+Developing a model 
+Defining your research question 
+Supervised and unsupervised learning 
+Validating a model 
+
+Module_3 
+Model selection and evaluation 
 Bias-variance trade-off
 
-Module_3
+Module_4
+Linear Regression
+
+
+Module_5 
+Decision Trees 
+
+Module_6
 Ensemble approaches 
 Why use an ensemble approach?
 Decision tree, random forest and bagging
