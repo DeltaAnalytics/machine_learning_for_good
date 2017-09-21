@@ -1,14 +1,11 @@
-# Data
-~/intro_course_data_science_for_good/data/
-
 # Temp files
 Untitled.ipynb
 
 # Silly mac data
 .DS_Store
 
-# Jupyter
-.ipynb_checkpoints/
+# Jupyter Notebook
+.ipynb_checkpoints
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
