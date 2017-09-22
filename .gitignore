@@ -1,5 +1,6 @@
 # Large, unzipped data files
 df_abridged.csv
+df.csv
 
 # Temp files
 Untitled.ipynb
@@ -100,3 +101,5 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+module_4/nbs/.ipynb_checkpoints/4-1_unsupervised_learning-checkpoint.ipynb
