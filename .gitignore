@@ -1,3 +1,7 @@
+# Large, unzipped data files
+df_abridged.csv
+df.csv
+
 # Temp files
 Untitled.ipynb
 
@@ -6,6 +10,7 @@ Untitled.ipynb
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -96,3 +101,4 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
