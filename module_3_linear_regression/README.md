@@ -37,11 +37,15 @@ This is module fits a straight line to your data, where the value of the outcome
 
 ## Resources
 - links to lecture notes
-- links to external references
+- [Comprehensive Guide to Regression](https://www.analyticsvidhya.com/blog/2015/08/comprehensive-guide-regression/)
 
 ## Module structure
-**3_1_linear_regression_I**
-- sdkfghsdjkfsdkhfhlsd
+- Load data and packages
+- Define and check assumptions for linear regression
+- Build a linear regression
+- Model interpretation and validation
 
-**3_2_linear_regression_II**
-- ksdjhfsdhfshjdf
+## Advanced topics
+- Logistic regression
+- Ridge and Lasso regression
+- Principle Component Analysis
