@@ -38,6 +38,7 @@ This is module fits a straight line to your data, where the value of the outcome
 ## Resources
 - links to lecture notes
 - [Comprehensive Guide to Regression](https://www.analyticsvidhya.com/blog/2015/08/comprehensive-guide-regression/)
+- [Understanding key regression statistics](http://connor-johnson.com/2014/02/18/linear-regression-with-python/)
 
 ## Module structure
 - Load data and packages
