@@ -46,13 +46,6 @@ Modules:
 - Clustering 
 - K-means algorithm
 
-6) Natural Language Processing (NLP) 
-
-- Text processing
-- Sentimentality analysis
-
-7) Introduction to deep learning
-
 Outcomes of course
 ----
 
