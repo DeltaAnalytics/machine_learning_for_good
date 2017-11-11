@@ -5,26 +5,36 @@ Welcome to module [INSERT NUMBER HERE] of the introductory course to data for go
 ## Recap
 Before getting started on this module, you should have worked your way through and understood the following modules:
 **ONLY KEEP MODULES LEADING UP TO THE PRESENT MODULE**
-- Module 0: Introduction
-  - Be able to use python and several crucial libraries including pandas and matplotlib
-  - Understood how to retrieve the kiva loan dataset through the kiva API
-  - Clear understanding on data science best practices
-- Module 1: Descriptive Statistics
-  - Import and merge datasets using pandas in Python
-  - Evaluate dataset using descriptive statistics
-  - Conduct an exploratory data analysis to formulate clear hypotheses
-- Module 2: Feature Engineering
-  - Define, identify and remove outliers
-  - Understand the importance of domain knowledge during feature selection
-  - Create and select features for the given hypothesis
+- **Module 0: Introduction**
+You should now be able to use python with several of the crucial libraries. You should be familiar with the kiva loan dataset and have a clear understanding of data science best practices.
+- **Module 1: Descriptive Statistics**
+Here, you should have manipulated datasets using pandas in Python and evaluated the dataset using descriptive statistics. Here you also started exploring data to inform and formulate your data science hypotheses.
+- **Module 2: Feature Engineering**
+Next, you used domain knowledge and data understanding to handle outliers and create features for your data science investigation.
+- **Module 3: Linear Regression**
+For your first machine learning algorithm, you should have explored linear regression. From this you should be able to interpret the model, verify and check assumption and evaluate it's performance.
+- **Module 4: Decision Trees and Random Forests**
+Here you should experimented with the non-parametric decision trees and improved their performance by parameter selection and more advanced models such bagged decision trees and random forests.
 
 #### Data Requirements
-Direct student to the datasets that will be used in the module.
+In order to continue with this module you will need to use the following datasets:
+- [INSER DATASET] which was created during Module 2.
+
 ## Topic overview
 quick explanation of the topic
+
+## Module structure
+1. Step 1
+2. Step 2
+3. Step 3
+...
+
 ## Resources
 - links to lecture notes
 - links to external references
 
-## Module structure
-Explain what is included in the module folder
+## Advanced Topics
+### Topic name
+Short introduction here
+- links to resources
+- links to resources
