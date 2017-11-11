@@ -1,5 +1,2 @@
-Unsupervised Learning
+Unsupervised Learning / K-means clustering
 ======
-
-
-Starting with k-means clustering
