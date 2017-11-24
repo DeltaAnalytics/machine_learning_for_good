@@ -4,14 +4,13 @@ name: good
 channels:
   - conda-forge
 dependencies:
-  - python == 3.6
+  - python==3.6
   - appnope==0.1.0            # via ipython
   - bleach==2.0.0             # via nbconvert
   - brewer2mpl==1.4.1         # via ggplot
   - cycler==0.10.0            # via ggplot, matplotlib
   - decorator==4.1.2          # via ipython, traitlets
   - entrypoints==0.2.3        # via nbconvert
-  - ggplot==0.11.5
   - html5lib==0.999999999     # via bleach
   - ipykernel==4.6.1          # via ipywidgets, jupyter, jupyter-console, notebook, qtconsole
   # - ipython-genutils==0.2.0   # via nbformat, notebook, qtconsole, traitlets
@@ -57,7 +56,8 @@ dependencies:
   - traitlets==4.3.2          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbconvert, nbformat, notebook, qtconsole
   - wcwidth==0.1.7            # via prompt-toolkit
   - widgetsnbextension==3.0.2  # via ipywidgets  - pip
-    # - pip:
+  - pip:
+    - graphviz
       
   # Start environment:
   # $ source activate good
