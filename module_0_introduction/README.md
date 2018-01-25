@@ -1,3 +1,4 @@
+
 Module 0: Introduction to the course
 ======
 
@@ -6,7 +7,7 @@ Welcome to the introductory module for this course on machine learning! Here we 
 Topic overview
 ----
 
-In these notebooks we have some basic examples of how to use Python, and in particular the pandas library. We have also provided our code to use the Kiva API to pull data.
+In these notebooks we have some basic examples of how to use Python, and in particular the pandas library. 
 
 If you're using Python for the first time, great! There are [installation instructions for the Anaconda environment](python_installation_instructions.md), which includes Python and many popular libraries.
 
@@ -25,3 +26,4 @@ Resources
 [Anaconda download by Continuum Analytics](https://www.continuum.io/downloads)
 
 [Pandas in 10 minutes](http://pandas.pydata.org/pandas-docs/stable/10min.html)
+
