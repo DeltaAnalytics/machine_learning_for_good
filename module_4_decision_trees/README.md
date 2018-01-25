@@ -3,26 +3,6 @@ Module 4: Decision Trees and Random Forests
 
 Welcome to Module 4 of the Introductory course to machine learning where we will be exploring Decision Trees and Random Forests - a very powerful way to model data!
 
-Recap
------
-Before getting started on this module, you should have worked your way through and understood the following modules:
-
-- **Module 0: Introduction**
-You should now be able to use python with several of the crucial libraries. You should be familiar with the Kiva loan dataset and have a clear understanding of data science best practices.
-
-- **Module 1: Descriptive Statistics**
-Here, you should have manipulated datasets using pandas in Python and evaluated the dataset using descriptive statistics. Here you also started exploring data to inform and formulate your data science hypotheses.
-
-- **Module 2: Feature Engineering**
-Next, you used domain knowledge and data understanding to handle outliers and create features for your data science investigation.
-
-- **Module 3: Linear Regression**
-For your first machine learning algorithm, you should have explored linear regression. From this you should be able to interpret the model, verify and check assumption and evaluate it's performance.
-
-Data Requirements
-----
-In order to continue with this module you will need to have `df_end_of_linear.csb` which was created during Module 3.
-
 Topic overview
 ----
 
@@ -30,7 +10,7 @@ A Decision Tree is a very powerful  model which can be used alone or as the basi
 
 A singular decision tree has the tendency to overfit on training data and to counter act this, Bagging (or Boostrap aggregating) is used. Bagging is an **ensemble approach** where N random subsamples of the dataset are made using selection with replacement and individual decision trees are trained on each subsample. Then the final prediction is the average of all predictions from the N decisions trees.
 
-<img src="images/bagging.png",width=500,height=500>
+<img src="../bagging.png",width=500,height=500>
 
 This is improved upon further by limiting the feature considered at each split to a random subset of features. This is known as a Random Forest.
 
@@ -56,3 +36,4 @@ For more information checkout these resources:
 - [An Introduction to Statistical Learning, Chapter 8.2.3](http://www-bcf.usc.edu/%7Egareth/ISL/ISLR%20Sixth%20Printing.pdf): Following on from Decision Trees and Random Forests, the chapter on Boosting discussed this model in an academic and tree-model context.
 - [A kaggle master explains gradient boosting](http://blog.kaggle.com/2017/01/23/a-kaggle-master-explains-gradient-boosting/): A fun and easy to read explanation of how gradient boosting works and why it is so great!
 - [A guide to gradient boosting trees with XGBoost in Python](https://jessesw.com/XG-Boost/): A comprehensive tutorial using XGBoost for income classification. A good opportunity to brush up on python and EDA skills too!
+
