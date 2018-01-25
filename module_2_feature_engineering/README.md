@@ -1,17 +1,19 @@
+
 Module 2: Feature Engineering
 ====
 
 Welcome to Module 2 of the introductory course to machine learning, where we will create new variables out of the raw data in a process called feature engineering!
 
-Recap
------
-Before getting started on this module, you should have worked your way through and understood the following modules:
-
-- **Module 0: Introduction**
-You should now be able to use python with several of the crucial libraries. You should be familiar with the Kiva loan dataset and have a clear understanding of data science best practices.
-
-- **Module 1: Descriptive Statistics**
-Here, you should have manipulated datasets using pandas in Python and evaluated the dataset using descriptive statistics. Here you also started exploring data to inform and formulate your data science hypotheses.
+Goals
+------
+Learn how to execute the following: 
+1. Feature pruning
+2. Engineering Temporal Features (month, year, etc)
+3. One-hot encoding / dummy variables
+4. Extracting features from strings
+5. Creating features from Metadata
+6. Feature scaling
+7. Data Imputation / cleaning
 
 Topic Overview
 -----
@@ -30,17 +32,6 @@ How do we know what features will be useful?
 
 Fortunately, there are common starting points for many datasets that we review in this module.
 
-- **[Feature Engineering](Feature%20Engineering.ipynb)**
-
-Some of the topics discussed will be:
-
-1. Feature selection
-2. Handling temporal features 
-3. Extracting features from strings
-4. One-hot encoding / dummy variables
-5. Feature scaling
-6. Data imputation / cleaning
-
-
 
  
+
