@@ -19,7 +19,7 @@ Next, you used domain knowledge and data understanding to handle outliers and cr
 - **Module 3: Linear Regression**
 For your first machine learning algorithm, you should have explored linear regression. From this you should be able to interpret the model, verify and check assumption and evaluate it's performance.
 
-- **Module 5: Decision Trees**
+- **Module 4: Decision Trees**
 Here, you were introduced to your second type of machine learning algorithm used for supervised learning, Decision Trees. You should have used these to build regression models and explored the more powerful ensemble method, RandomForests. You should be able to train, interpret and evaluate the performance of these models.
 
 
@@ -31,7 +31,7 @@ Topic overview
 ----
 Unsupervised Learning is the process of identifying patterns in a dataset. Identifying patterns is often an early step in understanding data. Unsupervised learning methods are a set of techniques designed to explore and find "hidden structure" rather than predict outcomes.
 
-Unsupervised learning does not require labeled data, therefore works for broader range of data. In fact, most data in the world is unlabelled. However, since there are no labels / correct answers there is not always a clear feedback to validate that the results are correct.
+Unsupervised learning does not require labeled data, therefore works for broader range of data. In fact, most data in the world is unlabeled. However, since there are no labels / correct answers there is not always a clear feedback to validate that the results are correct.
 
 There are two main techniques in the domain of unsupervised learning:
 
@@ -51,14 +51,14 @@ For additional help, we find the following resources to be very useful.
 
 - [K-Means handout from Stanford](http://stanford.edu/~cpiech/cs221/handouts/kmeans.html/):
 From the computer science course at Stanford University, this is a handout giving an overview of the k-means algorithm, sample code and it provides a bit more detail on how clustering can be improved.
-- [Interactive introduction to dimensionality reduction](https://www.kaggle.com/arthurtok/interactive-intro-to-dimensionality-reduction): A comprehensive introduction to three dimensionality reduction methods, PCA, LDA and t-SNE from kaggle. Iteractive examples with code are provided so that you can see the impact of these methods on the features.
+- [Interactive introduction to dimensionality reduction](https://www.kaggle.com/arthurtok/interactive-intro-to-dimensionality-reduction): A comprehensive introduction to three dimensionality reduction methods, PCA, LDA and t-SNE from kaggle. Interactive examples with code are provided so that you can see the impact of these methods on the features.
 
 
 Advanced topics
 ----
 
 ### Hierarchical Clustering
-Hierarchical Clustering is a more complex method to cluster data points and evaluate the clusters. Unlike K-Means, we do not need enforce the number of cluster to look for in heirarchical clustering. The algorithm incrementally creates groups data points togather to create cluster, staring with every data point as it's own cluster, until all the data in a single cluster. The results can be displayed in a diagram called a dendrogram which allows us to evaluate the possible combination of clusters.
+Hierarchical Clustering is a more complex method to cluster data points and evaluate the clusters. Unlike K-Means, we do not need enforce the number of cluster to look for in hierarchical clustering. The algorithm incrementally creates groups data points together to create cluster, staring with every data point as it's own cluster, until all the data in a single cluster. The results can be displayed in a diagram called a dendrogram which allows us to evaluate the possible combination of clusters.
 
 For more information checkout these resources:
 
