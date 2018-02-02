@@ -5,7 +5,7 @@ Module 0: Installing Python with Anaconda
 
 ![1](images/Anaconda_1.PNG)
 
-2. Follow the prompts.
+2. Follow the prompts:
 
 ![2](images/Anaconda_2.PNG)
 ![3](images/Anaconda_3.PNG)
@@ -14,3 +14,13 @@ Module 0: Installing Python with Anaconda
 ![6](images/Anaconda_6.PNG)
 ![7](images/Anaconda_7.PNG)
 ![8](images/Anaconda_8.PNG)
+
+3. Start Anaconda Navigator application.
+
+4. Within Anaconda Navigator, click on "Lanuch" button for Jupyter Notebook.
+
+![](images/anaconda_nav.png)
+
+That will open Jupyter Notebook in your favorite web browser.
+
+![](images/jupyter_notebook.png)
