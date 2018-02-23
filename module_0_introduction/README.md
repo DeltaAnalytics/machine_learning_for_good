@@ -1,4 +1,3 @@
-
 Module 0: Introduction to the course
 ======
 
