@@ -1,6 +1,5 @@
-# Large, unzipped data files
-df_abridged.csv
-df.csv
+# Data
+/data
 
 # Temp files
 Untitled.ipynb
