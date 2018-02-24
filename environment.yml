@@ -5,59 +5,18 @@ channels:
   - conda-forge
 dependencies:
   - python==3.6
-  - appnope==0.1.0            # via ipython
-  - bleach==2.0.0             # via nbconvert
-  - brewer2mpl==1.4.1         # via ggplot
-  - cycler==0.10.0            # via ggplot, matplotlib
-  - decorator==4.1.2          # via ipython, traitlets
-  - entrypoints==0.2.3        # via nbconvert
-  - html5lib==0.999999999     # via bleach
-  - ipykernel==4.6.1          # via ipywidgets, jupyter, jupyter-console, notebook, qtconsole
-  # - ipython-genutils==0.2.0   # via nbformat, notebook, qtconsole, traitlets
-  - ipython==6.1.0            # via ipykernel, ipywidgets, jupyter-console
-  - ipywidgets==7.0.0         # via jupyter
-  - jedi==0.10.2              # via ipython
-  - jinja2==2.9.6             # via nbconvert, notebook
-  - jsonschema==2.6.0         # via nbformat
-  # - jupyter-client==5.1.0     # via ipykernel, jupyter-console, notebook, qtconsole
-  # - jupyter-console==5.2.0    # via jupyter
-  # - jupyter-core==4.3.0       # via jupyter-client, nbconvert, nbformat, notebook, qtconsole
   - jupyter==1.0.0
-  - markupsafe==1.0           # via jinja2
-  - matplotlib==2.0.2         # via ggplot
-  - mistune==0.7.4            # via nbconvert
-  - nbconvert==5.2.1          # via jupyter, notebook
-  - nbformat==4.4.0           # via ipywidgets, nbconvert, notebook
-  - notebook==5.0.0           # via jupyter, widgetsnbextension
   - numpy==1.13.1
   - pandas==0.20.3
-  - pandocfilters==1.4.2      # via nbconvert
-  - patsy==0.4.1              # via ggplot, statsmodels
-  - pexpect==4.2.1            # via ipython
-  - pickleshare==0.7.4        # via ipython
-  # - prompt-toolkit==1.0.15    # via ipython, jupyter-console
-  - ptyprocess==0.5.2         # via pexpect, terminado
-  - pygments==2.2.0           # via ipython, jupyter-console, nbconvert, qtconsole
-  - pyparsing==2.2.0          # via matplotlib
-  - python-dateutil==2.6.1    # via jupyter-client, matplotlib, pandas
-  - pytz==2017.2              # via matplotlib, pandas
-  - pyzmq==16.0.2             # via jupyter-client
-  - qtconsole==4.3.1          # via jupyter
   - requests
-  - scikit-learn==0.19.0      # via sklearn
+  - scikit-learn==0.19.0
   - scipy==0.19.1
   - seaborn
-  - simplegeneric==0.8.1      # via ipython
-  - six==1.10.0               # via bleach, cycler, ggplot, html5lib, matplotlib, patsy, prompt-toolkit, python-dateutil, traitlets
   - statsmodels==0.8.0
-  - terminado==0.6            # via notebook
-  - testpath==0.3.1           # via nbconvert
-  - tornado==4.5.1            # via ipykernel, notebook, terminado
-  - traitlets==4.3.2          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbconvert, nbformat, notebook, qtconsole
-  - wcwidth==0.1.7            # via prompt-toolkit
-  - widgetsnbextension==3.0.2  # via ipywidgets  - pip
   - pip:
     - graphviz
+    - ggplot
+    - git+https://github.com/stroxler/batch_nbconvert
       
   # Start environment:
   # $ source activate good
