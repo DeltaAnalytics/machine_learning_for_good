@@ -3,7 +3,8 @@ set -e
 set -x
 
 # Create environment:
-conda update -n base conda -y
+## skipping conda update for now - conda has a bug in recent releases
+## conda update -n base conda -y
 conda env create --force -q
 
 # Start environment:
