@@ -15,8 +15,5 @@ dependencies:
   - statsmodels==0.8.0
   - pip:
     - graphviz
-    - ggplot
     - git+https://github.com/stroxler/batch_nbconvert
-      
-  # Start environment:
-  # $ source activate good
+    
