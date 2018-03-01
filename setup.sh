@@ -1,7 +1,10 @@
 #!/bin/bash
+set -e
+set -x
 
 # Create environment:
-conda env create --force
+conda update -n base conda -y
+conda env create --force -q
 
 # Start environment:
 source activate good
@@ -19,4 +22,6 @@ jupyter nbextension install calysto --user
 jupyter nbextension enable calysto/spell-check/main
 
 # Start Jupyter Notebook
-jupyter notebook --browser=Chrome
+if [[ "$1" != "--no-start" ]]; then
+    jupyter notebook --browser=Chrome
+fi

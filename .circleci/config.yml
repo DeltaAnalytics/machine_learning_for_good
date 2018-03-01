@@ -21,12 +21,10 @@ jobs:
           - v1-dependencies-
 
       - run:
-          name: create conda env
+          name: set up environment
           command: |
             apt-get install -y graphviz
-            conda env create -f environment.yml -q
-            bash fetch_data.sh
-            ls -lh data
+            bash setup.sh --no-start
       # ### Commenting this out for the moment, since we may not need it ###
       # - run:
       #     name: set up jupyter kernel
