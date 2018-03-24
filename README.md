@@ -1,6 +1,8 @@
 Introduction to Data Science for Social Good
 ====
 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/DeltaAnalytics/machine_learning_for_good/master)
+
 __How can we use data for social impact?__
 
 Data is powerful, and we believe that anyone can harness it for change.
@@ -22,36 +24,6 @@ Algorithms covered in this course include: linear regression, decision trees, ra
 
 The slides that cover the theory behind the code are available [here](http://www.deltanalytics.org/curriculum.html). Our curriculum structure of presenting theory alongside a real-life long-form data science project will open doors to novices and professionals alike to harness the power of data for good. 
 
-Modules:
-----
-
-0) [Introduction](module_0_introduction/README.md)
-
-- Who is Delta Analytics? 
-- What is data science? What is machine learning? 
-- Setting up your environment
-- Accessing the data
-
-1) [Descriptive Statistics](module_1_descriptive_statistics/README.md)
-
-- Data validation and cleaning 
-
-2) [Feature Engineering](module_2_feature_engineering/README.md)
-
-3) [Linear Regression](module_3_linear_regression/README.md)
-
-4) [Decision Trees](module_4_decision_trees/README.md) 
-
-- Ensemble approaches 
-- Why use an ensemble approach?
-- Decision tree, random forest and bagging
-- Parametric vs. non-parametric models
-- What are hyperparameters and how do you choose them? 
-
-5) [Unsupervised Learning](module_5_unsupervised_learning/README.md)
-
-- Clustering 
-- K-means algorithm
 
 Outcomes of course
 ----
@@ -71,3 +43,18 @@ Our teachers
 -----
 
 [Delta Teaching Fellows](http://www.deltanalytics.org/delta-teaching-fellows.html) are all data professionals working in the Bay Area. All of our time is donated for free to build out a curriculum that makes machine learning tools and knowledge more accessible to communities around the world. You can learn more about our team [here](http://www.deltanalytics.org/delta-teaching-fellows.html).
+
+Modules:
+----
+
+0) [Introduction](module_0_introduction/README.md)
+
+1) [Descriptive Statistics](module_1_descriptive_statistics/README.md) 
+
+2) [Feature Engineering](module_2_feature_engineering/README.md)
+
+3) [Linear Regression](module_3_linear_regression/README.md)
+
+4) [Decision Trees](module_4_decision_trees/README.md) 
+
+5) [Unsupervised Learning](module_5_unsupervised_learning/README.md)
