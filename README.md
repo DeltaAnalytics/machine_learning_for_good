@@ -5,7 +5,7 @@ Introduction to Data Science for Social Good
 
 __How can we use data for social impact?__
 
-Data is powerful, and we believe that anyone can harness it for change.
+Data is powerful. We believe that anyone can harness that power for change.
 
 In this introductory course, students will learn foundational theory and the necessary coding skills to translate data into actionable insights. Students will learn the latest machine learning tools and algorithms. 
 
@@ -15,15 +15,12 @@ Each of the modules is hands-on, project-based, using real world data from [KIVA
 
 [Delta Analytics](http://www.deltanalytics.org/) is a 501(c)3 Bay Area non-profit dedicated to bringing rigorous data science to problem-solving, effecting change in nonprofits and the public sector, and making data science an accessible and democratic resource for anyone with the same mission. 
 
-Curriculum
+Overview
 ----
 
 Topics covered in this course include: supervised learning, unsupervised learning, ensemble approaches, recommendation algorithms, and text analysis (also called Natural Language Processing or NLP).
 
-Algorithms covered in this course include: linear regression, decision trees, random forest, and k-means clustering.
-
 The slides that cover the theory behind the code are available [here](http://www.deltanalytics.org/curriculum.html). Our curriculum structure of presenting theory alongside a real-life long-form data science project will open doors to novices and professionals alike to harness the power of data for good. 
-
 
 Outcomes of course
 ----
@@ -32,7 +29,7 @@ At the end of the course, students will:
 
 1. Have a solid understanding of the fundamental statistical and programming that underlying common data science methods.
 2. Be able to communicate with other data scientists using technical terms.
-3. Write code to clean, process, analyze, and visualize real world data.
+3. Write code to clean, process, analyze, and visualize real-world data.
 
 Who is our target student?
 ----
