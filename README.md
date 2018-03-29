@@ -1,4 +1,4 @@
-Introduction to Data Science for Social Good
+Introduction to Machine Learning for Good
 ====
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/DeltaAnalytics/machine_learning_for_good/master)
