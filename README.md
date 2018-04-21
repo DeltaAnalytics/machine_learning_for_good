@@ -7,7 +7,7 @@ __How can we use data for social impact?__
 
 Data is powerful. We believe that anyone can harness that power for change.
 
-In this introductory course, students will learn foundational theory and the necessary coding skills to translate data into actionable insights. Students will learn the latest machine learning tools and algorithms. 
+In this introductory course, students will learn the foundational theory and the necessary coding skills to translate data into actionable insights. Students will learn the latest machine learning tools and algorithms. 
 
 Data science is a highly interdisciplinary practice: demanding critical thinking, understanding of statistics, and technical coding ability. Irresponsible application of powerful algorithms or an inadequate exploration of underlying assumptions can lead to spurious results. In this course, we emphasize the fundamentals of proper data science and expose students to what is possible using sophisticated machine learning methods. 
 
@@ -18,20 +18,20 @@ Each of the modules is hands-on, project-based, using real world data from [KIVA
 Overview
 ----
 
-Topics covered in this course include: supervised learning, unsupervised learning, ensemble approaches, recommendation algorithms, and text analysis (also called Natural Language Processing or NLP).
+Topics covered in this course include: data cleaning, supervised machine learning, and unsupervised machine learning.
 
-The slides that cover the theory behind the code are available [here](http://www.deltanalytics.org/curriculum.html). Our curriculum structure of presenting theory alongside a real-life long-form data science project will open doors to novices and professionals alike to harness the power of data for good. 
+The slides that cover the theory of the topic are available [here](http://www.deltanalytics.org/curriculum.html). We present theory alongside real-life data science examples will open doors to novices and professionals alike to harness the power of data for good. 
 
-Outcomes of course
+Course outcomes 
 ----
 
-At the end of the course, students will:
+By the end of the course, students will be able to:
 
-1. Have a solid understanding of the fundamental statistical and programming that underlying common data science methods.
-2. Be able to communicate with other data scientists using technical terms.
-3. Write code to clean, process, analyze, and visualize real-world data.
+1. Explain the fundamental statistical and machine learning algorithms that underlying common data science methods.
+1. Write code to clean, process, analyze, and visualize real-world data.
+1. Be able to communicate with other data scientists using technical terms.
 
-Who is our target student?
+Our students
 ----
 
 The course is intended for any and all individuals interested in harnessing data towards solving problems in their communities. Minimal prior coding or mathematical/statistical experience is expected. Computer proficiency is necessary.
@@ -39,9 +39,9 @@ The course is intended for any and all individuals interested in harnessing data
 Our teachers
 -----
 
-[Delta Teaching Fellows](http://www.deltanalytics.org/delta-teaching-fellows.html) are all data professionals working in the Bay Area. All of our time is donated for free to build out a curriculum that makes machine learning tools and knowledge more accessible to communities around the world. You can learn more about our team [here](http://www.deltanalytics.org/delta-teaching-fellows.html).
+[Delta Teaching Fellows](http://www.deltanalytics.org/delta-teaching-fellows.html) are all data professionals working in the San Francisco Bay Area. All of our time is donated for free to build out a curriculum that makes machine learning tools and knowledge more accessible to communities around the world. You can learn more about our team [here](http://www.deltanalytics.org/delta-teaching-fellows.html).
 
-Modules:
+Modules
 ----
 
 0) [Introduction](module_0_introduction/README.md)
