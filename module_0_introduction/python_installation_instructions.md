@@ -1,8 +1,7 @@
 Module 0: Installing Python with Anaconda
-===============
+====
 
-1. Get the latest version of Anaconda (requires ~1.8Gb space) for your operating system at: [www.anaconda.com/download/](https://www.anaconda.com/download/). Get the Python 3 verison
-
+1. Download and install the latest version Python 3 from Anaconda (requires ~1.8Gb space) for your operating system at: [www.anaconda.com/download/](https://www.anaconda.com/download/).
 ![1](images/Anaconda_1.PNG)
 
 2. Follow the prompts:
