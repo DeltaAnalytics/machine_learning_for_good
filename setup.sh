@@ -4,7 +4,7 @@ set -x
 
 # Create environment:
 conda update -n base conda -y
-conda env create --force -q
+conda env create --name good --force -q
 
 # Start environment:
 source activate good
@@ -13,7 +13,7 @@ source activate good
 conda update --all --yes
 
 # Get local copy of data
-git clone --single-branch --depth=1 https://github.com/DeltaAnalytics/data_science_for_good_data data
+git clone --single-branch --depth=1 https://github.com/DeltaAnalytics/machine_learning_for_good_data data
 
 # Setup spell checking and other notebook enhancements
 git clone https://github.com/Calysto/notebook-extensions.git
