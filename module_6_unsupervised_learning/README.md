@@ -1,9 +1,7 @@
-
-
-Module 5: Introduction to Unsupervised Learning
+Module 6: Introduction to Unsupervised Learning
 ======
 
-Welcome to Module 5 of the Introductory course to machine learning where we will delve into the topic of unsupervised learning!
+Welcome! We are going to delve into the topic of unsupervised learning!
 
 Goals
 ---
@@ -11,7 +9,6 @@ Goals
 2. Use k-means clustering as unsupervised learning technique.
 3. Find clusters with k-means algorithm.
 4. Evaluate our results with the Elbow method.
-
 
 Topic overview
 ----

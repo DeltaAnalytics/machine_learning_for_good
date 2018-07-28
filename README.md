@@ -52,6 +52,8 @@ Modules
 
 3) [Linear Regression](module_3_linear_regression/README.md)
 
-4) [Decision Trees](module_4_decision_trees/README.md) 
+4) [Logistic Regression](module_4_linear_regression/README.md)
 
-5) [Unsupervised Learning](module_5_unsupervised_learning/README.md)
+5) [Decision Trees](module_5_decision_trees/README.md) 
+
+6) [Unsupervised Learning](module_6_unsupervised_learning/README.md)

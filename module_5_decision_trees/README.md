@@ -1,7 +1,7 @@
-Module 4: Decision Trees and Random Forests
+Module 5: Decision Trees and Random Forests
 ======
 
-Welcome to Module 4 of the Introductory course to machine learning where we will be exploring Decision Trees and Random Forests - a very powerful way to model data!
+Welcome! We'll be exploring Decision Trees and Random Forests - a very powerful way to model data!
 
 Topic overview
 ----
