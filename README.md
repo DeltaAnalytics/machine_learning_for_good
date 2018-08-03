@@ -40,20 +40,3 @@ Our teachers
 -----
 
 [Delta Teaching Fellows](http://www.deltanalytics.org/delta-teaching-fellows.html) are all data professionals working in the San Francisco Bay Area. All of our time is donated for free to build out a curriculum that makes machine learning tools and knowledge more accessible to communities around the world. You can learn more about our team [here](http://www.deltanalytics.org/delta-teaching-fellows.html).
-
-Modules
-----
-
-0) [Introduction](module_0_introduction/README.md)
-
-1) [Descriptive Statistics](module_1_descriptive_statistics/README.md) 
-
-2) [Feature Engineering](module_2_feature_engineering/README.md)
-
-3) [Linear Regression](module_3_linear_regression/README.md)
-
-4) [Logistic Regression](module_4_linear_regression/README.md)
-
-5) [Decision Trees](module_5_decision_trees/README.md) 
-
-6) [Unsupervised Learning](module_6_unsupervised_learning/README.md)
