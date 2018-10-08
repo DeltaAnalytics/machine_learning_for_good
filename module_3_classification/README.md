@@ -1,2 +1,2 @@
-Module 4: Logistic Regression
+Module 3: Classification
 ========

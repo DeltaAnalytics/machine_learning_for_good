@@ -1,7 +1,7 @@
-# Module 3: Linear Regression
+# Module 2: Linear Regression
 ================================================================================
 
-Welcome to module 3 of the introductory course to data for good where we will be exploring linear regression - the first machine learning algorithm of this course!
+Welcome to module 2 of the introductory course to data for good where we will be exploring linear regression - the first machine learning algorithm of this course!
 
 Goals
 ----
