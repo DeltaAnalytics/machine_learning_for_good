@@ -28,8 +28,6 @@ In some countries such as Ghana and Uganda, weebly (our website host) has blocke
 
 [Module 2 - Machine learning deep dive](https://drive.google.com/file/d/1EZ_xqMaYj77vErVnrQmnFOj-VBEoO5uW/view?usp=sharing)
 
-[Module 2 - Machine learning deep dive](https://drive.google.com/file/d/1EZ_xqMaYj77vErVnrQmnFOj-VBEoO5uW/view?usp=sharing)
-
 [Module 3 - Linear Regression](https://drive.google.com/file/d/1kXbB7fps78xyFYUtmgNlQJJ3LdO0K3TB/view?usp=sharing)
 
 [Module 4 - Model Selection and Evaluation](https://drive.google.com/file/d/1ESR4U566uPioFCpFOITpuSBaO45MdJ4O/view?usp=sharing)
