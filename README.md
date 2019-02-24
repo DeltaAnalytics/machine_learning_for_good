@@ -22,6 +22,28 @@ Topics covered in this course include: data cleaning, supervised machine learnin
 
 The slides that cover the theory of the topic are available [here](http://www.deltanalytics.org/curriculum.html). We present theory alongside real-life data science examples will open doors to novices and professionals alike to harness the power of data for good. 
 
+In some countries such as Ghana and Uganda, weebly (our website host) has blocked traffic. We have submitted numerous complaints, and apologize to students for the inconvinience. Until then, you can access pdf of all course slides below.
+
+[Module 1 - Introduction to Machine Learning](https://drive.google.com/file/d/1r4SBY6Dm6xjFqLH12tFb-Bf7wbvoIN_C/view?usp=sharing)
+
+[Module 2 - Machine learning deep dive](https://drive.google.com/file/d/1EZ_xqMaYj77vErVnrQmnFOj-VBEoO5uW/view?usp=sharing)
+
+[Module 2 - Machine learning deep dive](https://drive.google.com/file/d/1EZ_xqMaYj77vErVnrQmnFOj-VBEoO5uW/view?usp=sharing)
+
+[Module 3 - Linear Regression](https://drive.google.com/file/d/1kXbB7fps78xyFYUtmgNlQJJ3LdO0K3TB/view?usp=sharing)
+
+[Module 4 - Model Selection and Evaluation](https://drive.google.com/file/d/1ESR4U566uPioFCpFOITpuSBaO45MdJ4O/view?usp=sharing)
+
+[Module 5 - Decision Trees](https://drive.google.com/file/d/1Sd_LN-WE_W3Zo-YZrMBe90H2i4_ieFRs/view?usp=sharing)
+
+[Module 6 - Ensemble Algorithms](https://drive.google.com/file/d/1g2AT3S5cgu5HjMYt4X-WiVs0RUvI6Z3s/view?usp=sharing)
+
+[Module 7 - Unsupervised Algorithms](https://drive.google.com/file/d/1YdA-HHYP1V05QgvwLCvfnuuau67Zl38n/view?usp=sharing)
+
+[Module 8 - Natural Language Processing Pt. 1](https://drive.google.com/file/d/1Y7gOfnPfyCSu1chWEoHMqhgXVI5KZpRx/view?usp=sharing)
+
+[Module 9 - Natural Language Processing Pt. 2](https://drive.google.com/file/d/1BUJ0FyMzSxCfHNA0AHwBOxjHt7V2FJj8/view?usp=sharing)
+
 Course outcomes 
 ----
 
