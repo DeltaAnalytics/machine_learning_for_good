@@ -15,6 +15,9 @@ Each of the modules is hands-on, project-based, using real world data from [KIVA
 
 [Delta Analytics](http://www.deltanalytics.org/) is a 501(c)3 Bay Area non-profit dedicated to bringing rigorous data science to problem-solving, effecting change in nonprofits and the public sector, and making data science an accessible and democratic resource for anyone with the same mission. 
 
+<img src="https://pbs.twimg.com/profile_images/935574083256819713/vORBliVR_400x400.jpg" width="100" height="100">
+
+
 Overview
 ----
 
