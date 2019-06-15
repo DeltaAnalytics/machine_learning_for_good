@@ -1,0 +1,553 @@
+[33mcommit e770b58b15d5c7ba20906e2587e12bbb749ae2c0[m[33m ([m[1;36mHEAD -> [m[1;32mlina_boosted_trees[m[33m)[m
+Author: Lina Huang <linahuang94@gmail.com>
+Date:   Sat Jun 15 12:15:48 2019 -0700
+
+    boosted trees draft
+
+[33mcommit c5354ebe1a4a3c4914deae2683b88bf8c7aabca4[m[33m ([m[1;31morigin/lina_svm_module[m[33m, [m[1;32mlina_svm_module[m[33m)[m
+Author: Lina Huang <linahuang94@gmail.com>
+Date:   Sun Apr 14 19:51:38 2019 -0700
+
+    svm
+
+[33mcommit 73ee49733f845f896ead021285b42d05b655c377[m[33m ([m[1;32mmaster[m[33m)[m
+Merge: fc3dfe7 163d2ec
+Author: sara hooker <sarahooker@users.noreply.github.com>
+Date:   Sun Feb 24 17:18:00 2019 +0000
+
+    Merge pull request #48 from DeltaAnalytics/sarahooker-patch-1
+    
+    Add course links for each module
+
+[33mcommit 163d2ec2f9ed02090e1a48e43560beaa5916f8f3[m
+Author: sara hooker <sarahooker@users.noreply.github.com>
+Date:   Sun Feb 24 11:22:43 2019 +0000
+
+    Update README.md
+    
+    quick correct
+
+[33mcommit 2339c9849924f4a19bc46025c1a01dd071a04736[m
+Author: sara hooker <sarahooker@users.noreply.github.com>
+Date:   Sun Feb 24 11:21:11 2019 +0000
+
+    Add course links for each module
+    
+    Our website is not available in certain countries like Uganda and Ghana. In the interim, we will also add links to the slides here. This is a good prompt to move our content regardless to a github hosted website in the near future.
+
+[33mcommit fc3dfe7cb5beeb327376c85521f6fd9f2ae09106[m
+Author: Lina Huang <linahuang94@gmail.com>
+Date:   Mon Nov 19 15:21:14 2018 +0100
+
+    midterm answers
+
+[33mcommit 6b2d12e3dfedbf73a98bee0a64226503933ba9cb[m
+Author: Lina Huang <linahuang94@gmail.com>
+Date:   Mon Nov 19 11:31:47 2018 +0100
+
+    image processing exploratory analysis
+
+[33mcommit d01d33757455953fa5a4564c82676693d4fd4873[m
+Author: Lina Huang <linahuang94@gmail.com>
+Date:   Mon Nov 19 11:24:08 2018 +0100
+
+    added image processing exploratory analysis
+
+[33mcommit 6550f2233f76af6b4b3fa64fc7ae2d9b35524be1[m
+Author: Lina Huang <linahuang94@gmail.com>
+Date:   Tue Nov 13 14:28:15 2018 +0100
+
+    edits for review lecture
+
+[33mcommit 651da4637172f3768a407fe3cfcaa2fa00b59152[m
+Author: Lina Huang <linahuang94@gmail.com>
+Date:   Thu Nov 8 00:47:14 2018 +0100
+
+    removed extra notebook
+
+[33mcommit 32d01db541cf382091af81f23916887d4ec6bd85[m
+Author: Lina Huang <linahuang94@gmail.com>
+Date:   Wed Nov 7 19:20:15 2018 +0100
+
+    advanced topics
+
+[33mcommit 3fe2d78d87f3c80fc23136471fd1ddde1a44612a[m
+Author: sydneymwong <sydneymwong@gmail.com>
+Date:   Mon Nov 5 15:35:29 2018 +0100
+
+    adding lines to get data if using colab
+
+[33mcommit 78b61b7e211b1b51651a0c16ddaf64de441cf1c9[m
+Author: sydneymwong <sydneymwong@gmail.com>
+Date:   Mon Nov 5 15:26:39 2018 +0100
+
+    fixed typos in module 3
+
+[33mcommit 12f0d40d7c07ec2262ad64dcbbbed3b0c5413ac4[m
+Author: sydneymwong <sydneymwong@gmail.com>
+Date:   Sun Nov 4 09:17:02 2018 +0100
+
+    added cells to get data if using colab
+
+[33mcommit da1c251ba6ea82d81345af4c4a49ca888a5ce1dc[m
+Author: sydneymwong <sydneymwong@gmail.com>
+Date:   Sun Oct 28 09:32:30 2018 +0000
+
+    added lines to get data if using colab
+
+[33mcommit d56b05ac3ffa96b846838605536eb4fb7ee7cdd0[m
+Author: sydneymwong <sydneymwong@gmail.com>
+Date:   Sat Oct 27 15:04:28 2018 +0100
+
+    updated assumptions notebook
+
+[33mcommit a1ed1436ba69cc790dab08109a0c0f1036bf08ac[m
+Author: sydneymwong <sydneymwong@gmail.com>
+Date:   Sat Oct 27 14:35:51 2018 +0100
+
+    finalized regularization notebook
+
+[33mcommit 1e773c1d97a9f28f1c3b44b85b5e0723cff0d436[m
+Merge: d1ccf61 f78be54
+Author: Sydney Wong <sydneymwong@gmail.com>
+Date:   Sat Oct 27 13:39:47 2018 +0100
+
+    Merge pull request #47 from DeltaAnalytics/update-module-2
+    
+    Update module 2
+
+[33mcommit f78be5497cf2f9d6e3967d77f023327b4a9a5b80[m
+Author: sydneymwong <sydneymwong@gmail.com>
+Date:   Sat Oct 27 13:31:19 2018 +0100
+
+    updated module 2 labs
+
+[33mcommit f51cfb7c89e9f7676bdfb48e0e3257c49e4d1fa9[m
+Author: sydneymwong <sydneymwong@gmail.com>
+Date:   Tue Oct 23 22:08:57 2018 +0100
+
+    add regularization workbook
+
+[33mcommit d145b69fa23a0750a89cd6dd964c2a7c9f6a9013[m
+Author: sydneymwong <sydneymwong@gmail.com>
+Date:   Sun Oct 21 23:29:19 2018 +0100
+
+    changed name of polynomial reg notebook
+
+[33mcommit d1ccf61c43359a2659fdb118ee42633e8ea2ed92[m
+Author: sydneymwong <sydneymwong@gmail.com>
+Date:   Sun Oct 21 23:19:22 2018 +0100
+
+    polynomial reg notebook
+
+[33mcommit 48238bdb0d676136d73757f0261a6358e43edfc5[m
+Author: Lina Huang <linahuang94@gmail.com>
+Date:   Fri Oct 19 19:08:17 2018 +0100
+
+    uploaded data
+
+[33mcommit 37205cf0534658fa99387019a9f75a3b4af559fa[m
+Author: Lina Huang <linahuang94@gmail.com>
+Date:   Fri Oct 19 19:06:11 2018 +0100
+
+    added data
+
+[33mcommit 8c0f1bd05132ddbcf02f6a10a7feee6ff990b1f2[m
+Merge: e8358e5 851ad04
+Author: unknown <linahuang94@gmail.com>
+Date:   Fri Oct 12 16:06:22 2018 +0100
+
+    Merge branch 'master' of https://github.com/DeltaAnalytics/machine_learning_for_good
+
+[33mcommit e8358e524af6f14478b160c8a4af17d311b5053c[m
+Author: unknown <linahuang94@gmail.com>
+Date:   Fri Oct 12 16:05:48 2018 +0100
+
+    added PCA to module 6 lab
+
+[33mcommit 851ad042012cc9a819368fc378c4c86889680aaa[m
+Merge: 9967cfb 9aa8de3
+Author: Lina Huang <linahuang94@gmail.com>
+Date:   Thu Oct 11 11:54:13 2018 +0100
+
+    Merge pull request #45 from DeltaAnalytics/update-module-2
+    
+    Update module 2
+
+[33mcommit 9aa8de329372e469621eb58bb363fbef37a6ed33[m
+Author: sydneymwong <sydneymwong@gmail.com>
+Date:   Mon Oct 8 20:41:48 2018 -0700
+
+    updated multivariate reg notebook to use new data
+
+[33mcommit 783862280889445f933b10571a88d042534b4023[m
+Author: sydneymwong <sydneymwong@gmail.com>
+Date:   Sun Oct 7 20:18:29 2018 -0700
+
+    updated multivariate lin reg module
+
+[33mcommit 9967cfba95c4d358ef1124013798ec75debe07ae[m
+Merge: d0c0cb7 b20754d
+Author: Sydney Wong <sydneymwong@gmail.com>
+Date:   Sun Oct 7 12:12:09 2018 -0700
+
+    Merge pull request #43 from sydneymwong/patch-1
+    
+    update readme to say Module 2 instead of 3
+
+[33mcommit d0c0cb73f81e08d7bd6d17671f383a923dbf2f55[m
+Merge: 2e0198d 227fb0d
+Author: Sydney Wong <sydneymwong@gmail.com>
+Date:   Sun Oct 7 12:11:50 2018 -0700
+
+    Merge pull request #44 from sydneymwong/patch-2
+    
+    update readme to be consistent with folder name
+
+[33mcommit 227fb0d90f2454cab8d5b370dd13cdb0d47ea31c[m
+Author: Sydney Wong <sydneymwong@gmail.com>
+Date:   Sat Sep 22 11:40:56 2018 -0700
+
+    update readme to be consistent with folder name
+
+[33mcommit b20754d5e3ec3f540d577ebbd6d1675affeb1a35[m
+Author: Sydney Wong <sydneymwong@gmail.com>
+Date:   Sat Sep 22 11:36:53 2018 -0700
+
+    update readme to say Module 2 instead of 3
+
+[33mcommit 2e0198dc51940d605f09c3adc65974da8d26c77b[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Thu Sep 20 10:06:33 2018 -0700
+
+    Updates
+
+[33mcommit 9730c2197525bccf2f754aac041b97cf8f845d03[m
+Author: unknown <linahuang94@gmail.com>
+Date:   Tue Aug 28 17:47:12 2018 -0700
+
+    removed hw
+
+[33mcommit 26c4f3cd5e5a4b63cf311140e313cbb32d4ca2f6[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Sat Aug 25 12:31:51 2018 -0700
+
+    Delete Midterm part 2 - Code.ipynb
+
+[33mcommit e51ff7598eca8718efd9124c4dff21d0580154b4[m
+Author: ayingsu <amandayingsu@gmail.com>
+Date:   Sat Aug 25 11:40:09 2018 -0700
+
+    Update Midterm part 2 - Code.ipynb
+
+[33mcommit e97120c4275e765076ce98618f65587800bd5323[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Mon Aug 13 07:10:44 2018 -0700
+
+    Update .gitignore
+
+[33mcommit 88cccbac3e3c3c84d5912e898dd0d7d7617e01c4[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Thu Aug 9 09:45:36 2018 -0700
+
+    Change folder name to be consistent
+    
+    with other folders
+
+[33mcommit 0f7e688349c1782554f7073bf6ac68fbb92d9524[m
+Merge: 47434a7 09a493d
+Author: Huang <lina.huang@oliverwyman.com>
+Date:   Sun Aug 5 15:02:36 2018 -0500
+
+    Merge branch 'master' of https://github.com/DeltaAnalytics/machine_learning_for_good
+
+[33mcommit 47434a799362a3dffeee83fe640e2e68500aa8b2[m
+Author: Huang <lina.huang@oliverwyman.com>
+Date:   Sun Aug 5 14:59:26 2018 -0500
+
+    midterm draft
+
+[33mcommit 09a493d31379c1a4a7c9a541c3977c7bbe50d34f[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Thu Aug 2 20:03:42 2018 -0700
+
+    Remove modules links
+    
+    Not stable and not being updated
+
+[33mcommit 79984a76b91df26f0a65c54e72c4d1eb4bb4a834[m
+Author: Huang <lina.huang@oliverwyman.com>
+Date:   Sun Jul 29 23:20:48 2018 -0500
+
+    updated names to match lectures
+
+[33mcommit 9c1ca12fab1fa427f39ece64b10f8198637c768b[m
+Author: Huang <lina.huang@oliverwyman.com>
+Date:   Sun Jul 29 22:53:12 2018 -0500
+
+    changed names
+
+[33mcommit 26dc9fcf8f5534365d18a05d4a0b2296e931dd02[m
+Author: Huang <lina.huang@oliverwyman.com>
+Date:   Sun Jul 29 22:47:01 2018 -0500
+
+    classification assignment
+
+[33mcommit 318c546d9b04c873a204696662165137230d095a[m
+Author: Huang <lina.huang@oliverwyman.com>
+Date:   Sun Jul 29 19:10:43 2018 -0500
+
+    updated naive bayes
+
+[33mcommit 33f55165eaf66941bc1577b7b367fefb99f8e93f[m
+Merge: df7d36c 326cfce
+Author: Huang <lina.huang@oliverwyman.com>
+Date:   Sat Jul 28 15:48:25 2018 -0500
+
+    Merge branch 'master' of https://github.com/DeltaAnalytics/machine_learning_for_good
+
+[33mcommit df7d36c0ad3006044b1db2ce62aa492d9bdcdf16[m
+Author: Huang <lina.huang@oliverwyman.com>
+Date:   Sat Jul 28 15:47:56 2018 -0500
+
+    changed name of logistic regression
+
+[33mcommit 326cfce39e425124975de83ceddcf5c3fb2b8fcd[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Sat Jul 28 13:33:14 2018 -0700
+
+    Update numbering to be consistent with new module
+
+[33mcommit 1d2ffd2a53127c36cbc1fe399f8dcf89fd676477[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Sat Jul 28 13:12:01 2018 -0700
+
+    Add try/except to automatically download data
+
+[33mcommit 6bc6586b69c2c925109d2f6b625924fbae5e3db7[m
+Author: Huang <lina.huang@oliverwyman.com>
+Date:   Sat Jul 28 13:23:39 2018 -0500
+
+    added data folder
+
+[33mcommit 5ea1729b3338a06435df6e14104fc16794d63da4[m
+Author: Huang <lina.huang@oliverwyman.com>
+Date:   Sat Jul 28 13:11:46 2018 -0500
+
+    Added logistic regression
+
+[33mcommit 83dbcaf655f20a15ff0f7392eb6ec96476987815[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Tue Jul 24 12:42:01 2018 -0700
+
+    Update instructions
+
+[33mcommit 0eeaef22f59dd342c2b515949d887d79c3e9fa84[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Tue Jul 24 11:25:53 2018 -0700
+
+    Clean up after adding many more loans
+
+[33mcommit ffd438d4d59661f4ad4c1cfcc7d5c5dd4055cc14[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Tue Jul 24 10:33:17 2018 -0700
+
+    Refactor clustering module to use generic data
+
+[33mcommit fcd9daaa3fd5091d38f2d3735c6f7b6dece35c80[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Tue Jul 24 10:12:08 2018 -0700
+
+    Finish refactor for Random Forest
+
+[33mcommit 627585cac3f8c0d674c5ffb30acff2c608c053a0[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Mon Jul 23 21:24:28 2018 -0700
+
+    Partial refactor of random forest
+
+[33mcommit 311e3631a4053fcfb02424a1fda6725b305bc27e[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Mon Jul 23 19:28:52 2018 -0700
+
+    Refactor decision tress to use new data
+
+[33mcommit dd544023ee3612187fa6dcdd9bd0c4a8981286a1[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Mon Jul 23 19:14:57 2018 -0700
+
+    Refactor the first part of Linear Regression code
+
+[33mcommit c3160d83608e7b98b19d1735ddbea1d184fe71df[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Sat Jul 21 17:19:16 2018 -0700
+
+    Refactor Feature Engineering
+
+[33mcommit 5f5fe7741b1e4236c53ee98c06312d4780905689[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Sat Jul 21 17:17:01 2018 -0700
+
+    Refactor feature engineering
+
+[33mcommit 48a34f87eeddf53287cedee020ef8b9d4a25044b[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Sat Jul 21 16:56:48 2018 -0700
+
+    Module 1 refactored
+
+[33mcommit 7bb820217b4747b66a35c5ee487d11b4460db8f3[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Sat Jul 21 15:40:21 2018 -0700
+
+    Start of generalization refactor
+
+[33mcommit abed247aa5813e2df71b8a5d84af1426ef1b4dee[m[33m ([m[1;33mtag: v3.0[m[33m)[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Sat Jul 14 17:59:39 2018 -0700
+
+    Improve setup
+
+[33mcommit 4c7b393c3d7eb63e9f6c91b00f99d6dfe3f8545d[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Sat Apr 28 13:42:15 2018 -0700
+
+    Clean up code
+
+[33mcommit 601fe0bcdf761e0d4e224de874134e21135692a3[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Sat Apr 28 13:29:14 2018 -0700
+
+    Improve language
+
+[33mcommit 8dae569a3b21b00b24937e1f8df65be29d21fd6d[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Sat Apr 21 15:34:27 2018 -0700
+
+    Revise language of landing page
+
+[33mcommit b299d42330f09e4d3c30050c02fe072b7f8e1ddc[m
+Author: Amanda Su <amandayingsu@gmail.com>
+Date:   Thu Mar 29 15:03:07 2018 -0700
+
+    update readme title
+
+[33mcommit 4bb8b73b844d76cc919b28d0b407badee0709821[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Sat Mar 24 15:51:37 2018 -0700
+
+    Update README.md
+
+[33mcommit 0d98f5bc4ccdf66a0c0b8af5f04e32e7a0f0d132[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Sat Mar 24 15:42:19 2018 -0700
+
+    Update README.md
+
+[33mcommit 11f3782fb5d24c2f1590763df15b65e2fec16cd9[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Wed Mar 14 07:15:57 2018 -0700
+
+    Fix broken image links
+
+[33mcommit 376a04c6bbe5b87f3b99b80df8f9a626f39dedef[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Wed Mar 14 07:15:34 2018 -0700
+
+    Fix spelling + grammar
+
+[33mcommit 2fe09027d628e5052bd9ed142a7484e3eb81b916[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Wed Mar 14 07:02:53 2018 -0700
+
+    Fix spelling + grammar
+
+[33mcommit 84dea0980f6ecf4c7d562fdbc17c21a82c05f1d4[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Wed Mar 14 06:36:32 2018 -0700
+
+    Fix spelling + grammar
+
+[33mcommit bded36629ce92975625de4b001f3ccd3d680f092[m
+Author: Amanda Su <amandayingsu@gmail.com>
+Date:   Wed Mar 7 13:20:00 2018 -0800
+
+    fix spelling + grammar
+
+[33mcommit 98e5c5386673d2358d9fa13d8300edeab23d0684[m
+Author: Amanda Su <amandayingsu@gmail.com>
+Date:   Wed Mar 7 13:02:24 2018 -0800
+
+    fix spelling + grammar
+
+[33mcommit 2150b2e882fdeb1c3a0e93b3471c2ab4bd5ab5c9[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Sun Mar 4 10:22:20 2018 -0800
+
+    Add logic to remove temp folder
+    
+    Hot Fix
+
+[33mcommit a7d07952ee6804a676c8e8124f460682f0d71bc6[m
+Merge: 7dc52fe 0d61429
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Thu Mar 1 14:30:00 2018 -0800
+
+    Merge pull request #42 from DeltaAnalytics/move-images-to-modules
+    
+    Move images to modules
+
+[33mcommit 7dc52fe757f58d2ba9d0f5580f73369ce64a3642[m
+Merge: e184e96 160e289
+Author: Steven Troxler <stroxler@stitchfix.com>
+Date:   Wed Feb 28 20:51:43 2018 -0800
+
+    Merge pull request #41 from DeltaAnalytics/cleanup-env
+    
+    Cleanup env
+
+[33mcommit 0d614297dc77772c6ec77057cbe724f23144b7d6[m[33m ([m[1;31morigin/move-images-to-modules[m[33m)[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Wed Feb 28 16:59:05 2018 -0800
+
+    Move images to modules
+    
+    This enables use to later split up the repo
+
+[33mcommit 160e2890799e74c863bf7d73531294040e9ef579[m
+Author: Steven Troxler <stroxler@stitchfix.com>
+Date:   Wed Feb 28 18:21:46 2018 -0800
+
+    Make CI work with these changes
+    
+    Several things were requires:
+      - update config.yaml
+      - add a --no-start flag to the setup script, to skip starting
+        a jupyter notebook
+      - update conda in the setup script, to avoid hitting a conda bug,
+        see https://github.com/conda/conda/issues/6811
+      - make the conda install quiet, so we don't get too verbose of logs
+      - fix a bad load path in module 0
+
+[33mcommit a9e504349ec00137e909056f33f2c781eeea3b61[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Wed Feb 28 17:17:48 2018 -0800
+
+    Add spell checking to markdown cells
+
+[33mcommit a1fc6464a621414c0f691030de3d4378b00ad33f[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Wed Feb 28 16:56:15 2018 -0800
+
+    Improve setup
+    
+    - single shell script to run them all
+    - remove unneeded package
+
+[33mcommit e184e966c7334cbc50e1f87bf659171115c4d5fc[m
+Author: Brian Spiering <bspiering@gmail.com>
+Date:   Fri Feb 23 19:12:43 2018 -0800
+
+    Add hidden files
+    
+    😊😊😊
