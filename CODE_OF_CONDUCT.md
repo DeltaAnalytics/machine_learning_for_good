@@ -44,8 +44,8 @@ If you believe that you have been treated contrary to this Code of Conduct you s
 In response, members of Delta Analytics’s leadership team will promptly:  
 
 - Meet with each person involved individually and privately.
-  - The leadership team will exercise its best efforts to keep these conversations confidential and will not divulge sensitive information to other members of the Delta community unless it receives permission from all direct parties involved to do so.
-  - Decide the appropriate course of action and communicate this outcome transparently to the parties involved.
-  - Maintain a private record of the incident, in order to identify and prevent undesirable repeat behavior.
+- The leadership team will exercise its best efforts to keep these conversations confidential and will not divulge sensitive information to other members of the Delta community unless it receives permission from all direct parties involved to do so.
+- Decide the appropriate course of action and communicate it transparently to the parties involved.
+- Maintain a private record of the incident, in order to identify and prevent undesirable repeated behavior.
 
 If a participant engages in behavior that violates this code of conduct, Delta Analytics may take any action they deem appropriate, including warning the offender, expelling the offender from an event, or including permanently banning the offender from the group after the offender has had an opportunity to be heard in front of the leadership team.
