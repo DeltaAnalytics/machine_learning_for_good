@@ -16,4 +16,5 @@ dependencies:
   - pip:
     - graphviz
     - git+https://github.com/stroxler/batch_nbconvert
+    - watermark
     
