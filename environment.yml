@@ -17,4 +17,4 @@ dependencies:
     - graphviz
     - git+https://github.com/stroxler/batch_nbconvert
     - watermark
-    
+    - wordcloud
