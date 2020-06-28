@@ -10,7 +10,7 @@ A Decision Tree is a very powerful  model which can be used alone or as the basi
 
 A singular decision tree has the tendency to overfit on training data and to counter act this, Bagging (or Boostrap aggregating) is used. Bagging is an **ensemble approach** where N random subsamples of the dataset are made using selection with replacement and individual decision trees are trained on each subsample. Then the final prediction is the average of all predictions from the N decisions trees.
 
-<img src="../bagging.png",width=500,height=500>
+<img src="images/bagging.png",width=500,height=500>
 
 This is improved upon further by limiting the feature considered at each split to a random subset of features. This is known as a Random Forest.
 
