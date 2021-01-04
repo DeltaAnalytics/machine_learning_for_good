@@ -68,3 +68,4 @@ Our teachers
 -----
 
 [Delta Teaching Fellows](http://www.deltanalytics.org/teaching-fellows.html) are all data professionals working in the San Francisco Bay Area. All of our time is donated for free to build out a curriculum that makes machine learning tools and knowledge more accessible to communities around the world. You can learn more about our team [here](http://www.deltanalytics.org/teaching-fellows.html).
+  
