@@ -15,8 +15,7 @@ Each of the modules is hands-on, project-based, using real world data from [KIVA
 
 [Delta Analytics](http://www.deltanalytics.org/) is a 501(c)3 Bay Area non-profit dedicated to bringing rigorous data science to problem-solving, effecting change in nonprofits and the public sector, and making data science an accessible and democratic resource for anyone with the same mission. 
 
-<img src="https://pbs.twimg.com/profile_images/935574083256819713/vORBliVR_400x400.jpg" width="100" height="100">
-
+<center><img src="/images/delta_logo.jpg" width="75%"/></center>
 
 Overview
 ----
@@ -27,38 +26,21 @@ The slides that cover the theory of the topic are available [here](http://www.de
 
 Weebly (our website host) has blocked traffic to certain countries. We have submitted numerous complaints, and apologize to students for the inconvenience caused. Until then, you can access pdf of all course slides below.
 
-![Alt text](images/introduction_machine_learning.png)
-
 [Module 1 - Introduction to Machine Learning](https://drive.google.com/file/d/1r4SBY6Dm6xjFqLH12tFb-Bf7wbvoIN_C/view?usp=sharing)
-
-![Alt text](images/machine_learning_.png)
 
 [Module 2 - Machine learning deep dive](https://drive.google.com/file/d/1EZ_xqMaYj77vErVnrQmnFOj-VBEoO5uW/view?usp=sharing)
 
-![Alt text](images/linear_regression.png)
-
 [Module 3 - Linear Regression](https://drive.google.com/file/d/1kXbB7fps78xyFYUtmgNlQJJ3LdO0K3TB/view?usp=sharing)
-
-![Alt text](images/model_selection_evaluation.png)
 
 [Module 4 - Model Selection and Evaluation](https://drive.google.com/file/d/1ESR4U566uPioFCpFOITpuSBaO45MdJ4O/view?usp=sharing)
 
-![Alt text](images/decision_trees.png)
-
 [Module 5 - Decision Trees](https://drive.google.com/file/d/1Sd_LN-WE_W3Zo-YZrMBe90H2i4_ieFRs/view?usp=sharing)
-
-![Alt text](images/ensemble_algorithms.png)
 
 [Module 6 - Ensemble Algorithms](https://drive.google.com/file/d/1g2AT3S5cgu5HjMYt4X-WiVs0RUvI6Z3s/view?usp=sharing)
 
-
 [Module 7 - Unsupervised Algorithms](https://drive.google.com/file/d/1YdA-HHYP1V05QgvwLCvfnuuau67Zl38n/view?usp=sharing)
 
-![Alt text](images/nlp_pt_1.png)
-
 [Module 8 - Natural Language Processing Pt. 1](https://drive.google.com/file/d/1Y7gOfnPfyCSu1chWEoHMqhgXVI5KZpRx/view?usp=sharing)
-
-![Alt text](images/nlp_pt_2.png)
 
 [Module 9 - Natural Language Processing Pt. 2](https://drive.google.com/file/d/1BUJ0FyMzSxCfHNA0AHwBOxjHt7V2FJj8/view?usp=sharing)
 
@@ -78,6 +60,5 @@ The course is intended for any and all individuals interested in harnessing data
 
 Our teachers
 -----
-
 
 [Delta Teaching Fellows](http://www.deltanalytics.org/teaching-fellows.html) are all data professionals working in the San Francisco Bay Area. All of our time is donated for free to build out a curriculum that makes machine learning tools and knowledge more accessible to communities around the world. You can learn more about our team [here](http://www.deltanalytics.org/teaching-fellows.html).
