@@ -3,7 +3,10 @@ Introduction to Machine Learning for Good
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/DeltaAnalytics/machine_learning_for_good/master)
 
-__How can we use data for social impact?__
+<center><img src="/images/delta_logo.jpg" width="50%"/></center>
+
+How can we use data for social impact?
+------
 
 Data is powerful. We believe that anyone can harness that power for change.
 
@@ -13,9 +16,12 @@ Data science is a highly interdisciplinary practice: demanding critical thinking
 
 Each of the modules is hands-on, project-based, using real world data from [KIVA](https://www.kiva.org/), a non-profit that connects people through lending to alleviate poverty. 
 
-[Delta Analytics](http://www.deltanalytics.org/) is a 501(c)3 Bay Area non-profit dedicated to bringing rigorous data science to problem-solving, effecting change in nonprofits and the public sector, and making data science an accessible and democratic resource for anyone with the same mission. 
 
-<center><img src="/images/delta_logo.jpg" width="75%"/></center>
+Who We Are
+------
+
+[Delta Analytics](http://www.deltanalytics.org/) is a 501(c)3 San Francisco Bay Area non-profit dedicated to bringing rigorous data science to problem-solving, effecting change in nonprofits and the public sector, and making data science an accessible and democratic resource for anyone with the same mission. 
+
 
 Overview
 ----
