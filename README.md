@@ -4,7 +4,7 @@ Introduction to Machine Learning for Good
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/DeltaAnalytics/machine_learning_for_good/master)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DeltaAnalytics/machine_learning_for_good)
 
-<center><img src="/images/delta_octocat.png" width="40%"/></center>
+<center><img src="/images/delta_octocat.png" width="60%"/></center>
 
 How can we use data for social impact?
 ------
